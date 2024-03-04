@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rancho Guadalupe</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <style>
+    /* Estilo personalizado para el logo */
+    header {
+      background-image: url('logo.jpeg'); /* Agrega el logo como fondo */
+      background-size: contain; /* Ajusta el tamaño del fondo para que quepa en el área del encabezado */
+      background-repeat: no-repeat; /* Evita que el fondo se repita */
+      padding: 20px; /* Ajusta el relleno del encabezado para que no se superponga con el contenido */
+      position: fixed; /* Fija el encabezado en la parte superior de la ventana */
+      width: 100%; /* Ancho completo */
+      z-index: 1000; /* Asegura que el encabezado esté por encima de otros elementos */
+      top: 0; /* Asegura que el encabezado esté siempre en la parte superior */
+      background-color: #fff; /* Color de texto */
+      margin-bottom: 100px; /* Añade un margen inferior para evitar que se superponga con el contenido */
+    }
+
+    body {
+      background-color: #f4f4f4; /* Color de fondo de la página */
+      margin-top: 100px; /* Agrega un margen superior para evitar que el contenido se superponga con el encabezado */
+    }
+
+    .section {
+      background-color: #fff; /* Color de fondo de las secciones */
+      padding: 20px; /* Ajusta el relleno de las secciones */
+      margin-bottom: 20px; /* Añade un margen inferior entre las secciones */
+      border-radius: 5px; /* Agrega bordes redondeados a las secciones */
+      box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Agrega una sombra suave a las secciones */
+    }
+
+    .navbar-light .navbar-nav .nav-link {
+      color:  #8d500e ;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <!-- Barra de navegación -->
+  <nav class="navbar navbar-expand-lg navbar-light navbar-custom">
+    <div class="container">
+      <a class="navbar-brand" href="#">Rancho Guadalupe</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#inicio">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#servicios">Servicios</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#productos">Productos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#noticias">Noticias</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contacto">Contacto</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<!-- Contenido de la página -->
+<div class="container mt-5">
+  <div id="inicio" class="section">
+    <h2 class="mb-3">Bienvenido a Rancho Guadalupe</h2>
+    <img src="rancho.jpeg" class="img-fluid mb-4" alt="Rancho Guadalupe" style="max-width: 600px;">
+    <p>Nuestro rancho está ubicado en un hermoso valle rodeado de montañas, ofreciendo un lugar perfecto para relajarse y disfrutar de la naturaleza.</p>
+    <p>En Rancho Guadalupe, nos esforzamos por brindar a nuestros huéspedes una experiencia inolvidable, ofreciendo una variedad de servicios y productos de calidad.</p>
+  </div>
+
+  <div id="servicios" class="section">
+    <h2 class="mb-4">Servicios</h2>
+    <div class="row">
+      <div class="col-md-6">
+        <h4>Paseos a Caballo</h4>
+        <p>Explora nuestros hermosos senderos a caballo con guías expertos.</p>
+      </div>
+      <div class="col-md-6">
+        <h4>Senderismo Guiado</h4>
+        <p>Descubre la belleza natural de nuestros alrededores en emocionantes excursiones de senderismo.</p>
+      </div>
+      <div class="col-md-6">
+        <h4>Piscina al Aire Libre</h4>
+        <p>Refrescate en nuestra piscina al aire libre, perfecta para días soleados.</p>
+      </div>
+      <div class="col-md-6">
+        <h4>Spa y Masajes</h4>
+        <p>Relaja cuerpo y mente con nuestros tratamientos de spa y masajes terapéuticos.</p>
+      </div>
+      <div class="col-md-6">
+        <h4>Clases de Yoga</h4>
+        <p>Conéctate con la naturaleza y encuentra paz interior con nuestras clases de yoga al aire libre.</p>
+      </div>
+    </div>
+  </div>
+
+  <div id="productos" class="section">
+    <h2 class="mb-4">Productos</h2>
+    <div class="row">
+      <div class="col-md-4">
+        <h4>Artesanías Locales</h4>
+        <p>Descubre una selección de artesanías únicas hechas por artistas locales.</p>
+      </div>
+      <div class="col-md-4">
+        <h4>Productos Gourmet</h4>
+        <p>Prueba nuestros deliciosos productos gourmet, incluyendo miel orgánica y mermeladas caseras.</p>
+      </div>
+      <div class="col-md-4">
+        <h4>Ropa y Accesorios</h4>
+        <p>Encuentra ropa y accesorios con diseños inspirados en la naturaleza.</p>
+      </div>
+      <div class="col-md-4">
+        <h4>Libros y Guías</h4>
+        <p>Explora nuestra colección de libros y guías sobre la flora y fauna de la región.</p>
+      </div>
+    </div>
+  </div>
+
+  <div id="noticias" class="section">
+    <h2 class="mb-4">Noticias</h2>
+    <div class="row">
+      <div class="col-md-6">
+        <div class="card mb-3">
+          <div class="card-body">
+            <h5 class="card-title">Nuevo Sendero de Montaña Inaugurado</h5>
+            <p class="card-text">¡Explora la belleza natural de nuestro valle con nuestro nuevo sendero de montaña! Abierto todos los días desde el amanecer hasta el atardecer.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="card mb-3">
+          <div class="card-body">
+            <h5 class="card-title">Clases de Yoga al Aire Libre</h5>
+            <p class="card-text">Únete a nuestras clases de yoga al aire libre todos los sábados por la mañana en nuestro jardín botánico. ¡Relájate y conecta con la naturaleza!</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="card mb-3">
+          <div class="card-body">
+            <h5 class="card-title">Propuesta de Negocio</h5>
+            <p class="card-text">¿Interesado en invertir en Rancho Guadalupe? Contáctanos para obtener más información sobre oportunidades de inversión.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="embed-responsive embed-responsive-16by9">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/1ikfNO1OntI?si=tHp6Wh5aiDEBKAv5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+
+  <div id="contacto" class="section">
+    <h2 class="mb-4">Contacto</h2>
+    <div class="redes-sociales mb-4">
+      <a href="https://www.facebook.com/RGSanarate/"><i class="fab fa-facebook"></i></a>
+      <a href="https://api.whatsapp.com/send?phone=50240040445"><i class="fab fa-whatsapp"></i></a> <!-- Enlace a WhatsApp con el número -->
+    </div>
+    <p>¡Síguenos en nuestras redes sociales o contáctanos por WhatsApp para obtener más información!</p>
+  </div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
